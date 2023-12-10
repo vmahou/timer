@@ -1,0 +1,1 @@
+export const defaultFormat = 'hh:MM:ss';

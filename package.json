@@ -1,0 +1,24 @@
+{
+  "name": "timer",
+  "version": "0.0.1",
+  "description": "Stream subathon/donothon timer for twitch streamers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/esbuild --bundle --outfile=index.js src/index.ts && http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmahou/timer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmahou/timer/issues"
+  },
+  "homepage": "https://github.com/vmahou/timer#readme",
+  "devDependencies": {
+    "esbuild": "^0.19.8",
+    "http-server": "^14.1.1"
+  }
+}
