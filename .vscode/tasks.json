@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch",
+			"group": "build",
+			"problemMatcher": "$esbuild-watch",
+			"label": "npm: watch",
+			"isBackground": true,
+			"detail": "node_modules/.bin/esbuild --bundle --outfile=index.js src/index.ts --sourcemap --watch --servedir=."
+		}
+	]
+}

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node_modules/.bin/esbuild --bundle --outfile=index.js src/index.ts && http-server .",
+    "watch": "node_modules/.bin/esbuild --bundle --outfile=index.js src/index.ts --sourcemap --watch --servedir=.",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
